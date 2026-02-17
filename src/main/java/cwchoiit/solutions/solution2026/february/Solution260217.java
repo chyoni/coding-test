@@ -1,4 +1,4 @@
-package cwchoiit.solutions;
+package cwchoiit.solutions.solution2026.february;
 
 import java.util.Arrays;
 import java.util.HashMap;
