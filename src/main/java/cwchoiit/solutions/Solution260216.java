@@ -10,7 +10,7 @@ import java.util.Map;
  * 0: zero, 1: one, 2: two, 3: three, 4: four
  * 5: five, 6: six, 7: seven, 8: eight, 9: nine
  */
-public class Solution260116 {
+public class Solution260216 {
 
     public static void main(String[] args) {
         String question = "one4seveneight";
