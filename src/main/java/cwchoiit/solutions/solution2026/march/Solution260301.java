@@ -34,12 +34,12 @@ import java.util.Deque;
 public class Solution260301 {
 
     public static void main(String[] args) {
-        // String s = "()";
+        String s = "()";
         // String s = "()[]{}";
         // String s = "(]";
         // String s = "([])";
         // String s = "]]]";
-        String s = "((";
+        // String s = "((";
 
         boolean answer = solution(s);
         System.out.println("answer = " + answer);
@@ -67,7 +67,8 @@ public class Solution260301 {
         } else if (bracket == ']' && !deque.isEmpty()) {
             return deque.pop().equals('[');
         } else {
-            return deque.add(bracket);
+            deque.push(bracket);
+            return true;
         }
     }
 }
